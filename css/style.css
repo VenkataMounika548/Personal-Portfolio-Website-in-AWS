@@ -1,0 +1,480 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#08121d;
+    color:white;
+
+}
+
+nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 100px;
+
+    background:#0d1b2a;
+
+    position:sticky;
+    top:0;
+
+}
+
+.logo{
+
+    color:#00d9ff;
+    font-size:32px;
+
+}
+
+nav ul{
+
+    display:flex;
+    list-style:none;
+    gap:30px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#00d9ff;
+
+}
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    height:90vh;
+
+    padding:50px 100px;
+
+}
+
+.content{
+
+    width:50%;
+
+}
+
+.content h3{
+
+    color:#00d9ff;
+
+    font-size:25px;
+
+}
+
+.content h1{
+
+    font-size:55px;
+
+    margin:15px 0;
+
+}
+
+.content h2{
+
+    color:#00d9ff;
+
+    margin-bottom:20px;
+
+}
+
+.content p{
+
+    line-height:28px;
+
+    color:#c9c9c9;
+
+    margin-bottom:30px;
+
+}
+
+.buttons a{
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    background:#00d9ff;
+
+    color:black;
+
+    margin-right:20px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.buttons a:hover{
+
+    background:white;
+
+}
+
+.image img{
+
+    width:380px;
+
+    border-radius:50%;
+
+    border:8px solid #00d9ff;
+
+    box-shadow:0 0 40px #00d9ff;
+
+}
+/* ===========================
+   ABOUT PAGE
+=========================== */
+
+.about-page{
+    max-width:1000px;
+    margin:60px auto;
+    padding:20px;
+}
+
+.about-page h1{
+    text-align:center;
+    color:#00d9ff;
+    font-size:55px;
+    margin-bottom:50px;
+}
+
+.about-box{
+    background:#132235;
+    border-left:5px solid #00d9ff;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 15px rgba(0,217,255,.15);
+}
+
+.about-box h2{
+    color:#00d9ff;
+    font-size:32px;
+    margin-bottom:18px;
+}
+
+.about-box p{
+    color:#dcdcdc;
+    font-size:18px;
+    line-height:32px;
+}
+
+/* Education */
+
+.education-item{
+    margin:25px 0;
+    padding-bottom:20px;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.education-item:last-child{
+    border-bottom:none;
+}
+
+.education-item h3{
+    color:#fff;
+    font-size:26px;
+    margin-bottom:10px;
+}
+
+.education-item p{
+    color:#dcdcdc;
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.education-item span{
+    color:#00d9ff;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Interest Tags */
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.tags span{
+    background:#00d9ff;
+    color:#08121d;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+/* Navigation Buttons */
+
+.page-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:45px;
+}
+
+.page-buttons a{
+    text-decoration:none;
+    background:#00d9ff;
+    color:#08121d;
+    padding:15px 35px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.page-buttons a:hover{
+    background:white;
+}
+
+
+/* ===========================
+   SKILLS PAGE
+=========================== */
+
+.skills-page{
+    text-align:center;
+    padding:80px 0;
+}
+
+.skills-page h1{
+    color:#00d9ff;
+    font-size:60px;
+    margin-bottom:60px;
+}
+
+.skills-container{
+    width:85%;
+    margin:auto;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.skill-card{
+    width:300px;
+    height:110px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#132235;
+    border:2px solid #00d9ff;
+    border-radius:18px;
+
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 18px #00d9ff;
+}
+
+/* ===========================
+   PROJECTS PAGE
+=========================== */
+
+.projects-page{
+
+    padding:80px 100px;
+
+}
+
+.projects-page h1{
+
+    text-align:center;
+
+    color:#00d9ff;
+
+    font-size:50px;
+
+    margin-bottom:50px;
+
+}
+
+.project-card{
+
+    background:#0d1b2a;
+
+    border:2px solid #00d9ff;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    margin:30px auto;
+
+    max-width:800px;
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px #00d9ff;
+
+}
+
+.project-card h2{
+
+    color:#00d9ff;
+
+    margin-bottom:15px;
+
+}
+
+.project-card p{
+
+    color:#dcdcdc;
+
+    line-height:28px;
+
+}
+
+/* ===========================
+   CONTACT PAGE
+=========================== */
+
+/* CONTACT PAGE */
+
+.contact-page{
+    width:80%;
+    max-width:700px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.contact-page h1{
+    color:#00d9ff;
+    font-size:55px;
+    margin-bottom:40px;
+}
+
+.contact-card{
+    background:#112233;
+    border-left:5px solid #00d9ff;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(0,217,255,.4);
+}
+
+.contact-card a{
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+}
+
+.contact-card a:hover{
+    color:#00d9ff;
+}
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    background:#0d1b2a;
+
+    padding:20px;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:50px;
+
+}
+/* ===========================
+   ABOUT PAGE
+=========================== */
+
+.about-page{
+    /* Keep your existing code */
+}
+
+.about-card{
+    /* Keep your existing code */
+}
+
+.about-card h2{
+    /* Keep your existing code */
+}
+
+.about-card p{
+    /* Keep your existing code */
+}
+
+/* ===========================
+   EDUCATION
+=========================== */
+
+.education-item{
+    padding:18px 0;
+    border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+.education-item:last-child{
+    border-bottom:none;
+}
+
+.education-item h3{
+    color:#ffffff;
+    font-size:24px;
+    margin-bottom:8px;
+}
+
+.education-item p{
+    color:#d6d6d6;
+    font-size:18px;
+    margin-bottom:6px;
+}
+
+.education-item span{
+    color:#00d9ff;
+    font-size:17px;
+    font-weight:600;
+}
